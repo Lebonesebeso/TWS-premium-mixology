@@ -1,19 +1,17 @@
 # TWS-premium-mixology
 
-TWS Liquid Chef — MVP static site (HTML/CSS). Built as a fast static landing site with WhatsApp-first contact.
-
-## Overview
-- Static HTML/CSS scaffold
-- WhatsApp primary CTA: +267 74 892 554
-- Email placeholder
-- Operating hours: By Appointment Only
+TWS Liquid Chef — MVP static site (HTML/CSS). WhatsApp-first contact and public pricing.
 
 ## Local preview
-Open `index.html` in a browser. For development, serve with a static file server (e.g., `npx serve` or `python -m http.server`).
+Open `index.html` in a browser or run a simple static server: `npx serve` or `python -m http.server`.
 
-## Next steps
-- Replace placeholder images and hero media
-- Add gallery images, testimonials, and menu/pricing
-- Set up GitHub Pages or deploy to Netlify/Vercel
+## Deployment
+Site is served from `gh-pages` branch. Custom domain currently set in `gh-pages/CNAME`.
 
-**IMPORTANT:** Replace the placeholder email before public launch.
+## Next polish tasks
+- Replace placeholder images with brand photos
+- Add hero looping video and mobile poster
+- Replace placeholder email and add social links
+- Add real testimonials and high-resolution gallery
+
+Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>
